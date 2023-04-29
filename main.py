@@ -128,7 +128,7 @@ def readImage( imgName, title):
     title = title + (f'  viewBox h: {w} w: {h}')
     root.title(title)
     return img
-###################################
+################################### andy
 def show_frame():
     global panelA, panelB
     global imgOk
