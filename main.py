@@ -165,8 +165,8 @@ def show_frame():
             addedW = -2
         params = (addedW, addedH)
 
-        findCtr, imgUpd, contures, resultImgGray , imgRotated, imgRotatedResult, mainImgConture = lekaloMain.doFrame(img, slider1.get(), slider2.get(), 0.1 * slider3.get(), slider4.get(), params)
-        findCtr = True
+        # findCtr, imgUpd, contures, resultImgGray , imgRotated, imgRotatedResult, mainImgConture = lekaloMain.doFrame(img, slider1.get(), slider2.get(), 0.1 * slider3.get(), slider4.get(), params)
+        findCtr = False
         if findCtr == True:
             if isinstance(imgUpd, str):
                 imgUpd = img
