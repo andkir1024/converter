@@ -10,7 +10,7 @@ import lecaloUtils
 import pillow_heif
 import numpy as np
 
-################################### andy 2222 33333
+################################### andy 2222 33333 kir
 testName = None
 demoName = 'demo.mp4'
 # cap = cv2.VideoCapture(demoName)
