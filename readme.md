@@ -6,6 +6,6 @@ python -m venv .venv
 pip install -r requirements.txt
 
 сохранение необходимых зависимостей
-pip freeze > requirements.txt
+pip freeze > Requirements.txt
 
 added new
